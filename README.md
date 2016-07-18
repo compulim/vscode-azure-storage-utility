@@ -9,7 +9,7 @@ Highlights an URI which points to Azure Storage, e.g. http://accountname.blob.co
 You can also add a keyboard shortcut with JSON below.
 ```
 {
-  "key": "alt+.",
+  "key": "ctrl+alt+shift+s",
   "command": "azureStorage.buildSASURI",
   "when": "editorTextFocus"
 }
