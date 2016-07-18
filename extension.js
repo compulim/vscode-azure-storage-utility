@@ -25,7 +25,7 @@ const lastSecrets = {};
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 function activate(context) {
-  context.subscriptions.push(vscode.commands.registerTextEditorCommand('azure.storage.buildSASURI', (textEditor, edit, args) => {
+  context.subscriptions.push(vscode.commands.registerTextEditorCommand('azureStorage.buildSASURI', (textEditor, edit, args) => {
     const { document, selections } = textEditor;
 
     // The code you place here will be executed every time your command is executed
