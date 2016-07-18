@@ -185,8 +185,8 @@ function parseBlobURL(url) {
     if (accountNameMatch) {
       resolve({
         accountName: accountNameMatch[1],
-        container: containerAndBlob[1],
-        blob: containerAndBlob[2]
+        container: decodeURI(containerAndBlob[1]),
+        blob: decodeURI(containerAndBlob[2])
       });
     } else {
       reject(new Error('cannot find account name, container, or blob'));
