@@ -16,6 +16,8 @@ You can also add a keyboard shortcut with JSON below.
 ```
 
 ## Change log
+* 0.0.2 (2016-07-18)
+  * Works with URI with encoded characters
 * 0.0.1 (2016-07-18)
   * Initial commit
 

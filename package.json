@@ -2,7 +2,7 @@
   "name": "vscode-azure-storage-utility",
   "displayName": "Azure Storage Utility",
   "description": "Generates Shared Access Signature for Azure Storage URI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Compulim",
   "engines": {
     "vscode": "^0.10.1"
