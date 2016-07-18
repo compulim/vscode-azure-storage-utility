@@ -1,0 +1,49 @@
+{
+  "name": "vscode-azure-storage-utility",
+  "displayName": "Azure Storage Utility",
+  "description": "Generates Shared Access Signature for Azure Storage URI",
+  "version": "0.0.1",
+  "publisher": "Compulim",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "icon": "icon.png",
+  "galleryBanner.color": "#0D5CAB",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compulim/vscode-azure-storage-utility.git"
+  },
+  "bugs": "https://github.com/compulim/vscode-azure-storage-utility/issues/",
+  "homepage": "https://github.com/compulim/vscode-azure-storage-utility/blob/master/README.md",
+  "keywords": [
+    "azure",
+    "blob",
+    "file",
+    "sas",
+    "storage",
+    "token"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:azureStorage.buildSASURI"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "azureStorage.buildSASURI",
+        "title": "Azure Storage: Build a SAS URI"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode": "^0.11.x"
+  },
+  "dependencies": {
+    "azure-storage": "^1.1.0",
+    "bluebird": "^3.4.1",
+    "moment": "^2.14.1"
+  }
+}
